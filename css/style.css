@@ -37,6 +37,14 @@ body{
 .debug{
     border: 1px solid #000000;
 }
+.space-btw{
+    display: flex;
+    justify-content: space-between;
+ 
+}
+nav{
+    width: 100%;
+}
 .d-flex{
     display: flex;
     flex-direction: row;
@@ -44,18 +52,27 @@ body{
 .align-center{
     align-items: center;
 }
+a{
+    padding: 10px;
+}
 /* header */
 header{
     position: fixed;
     top: 0;
-    height: 80px;
+    height: 50px;
     background-color: var(--background-main);
     width: 100%;
     z-index: 1000;
 }
+.logo{
+    margin-left: 0;
+}
+.accedi{
+    margin-right: 0;
+}
 /* main */
 main{
-    padding-top: 80px;
+    padding-top: 50px;
 }
 #hero{
     background-color: var(--backgroun-hero);
@@ -66,4 +83,7 @@ main{
 footer{
     background-color: var(--bc-footer);
     color:var(--background-main)
+}
+ul{
+    list-style: none;
 }
