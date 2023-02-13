@@ -55,6 +55,9 @@ nav{
 a{
     padding: 10px;
 }
+.p-top{
+    padding-top: 100px;
+}
 /* header */
 header{
     position: fixed;
@@ -77,6 +80,15 @@ main{
 #hero{
     background-color: var(--backgroun-hero);
     width: 100%;
+}
+h1{
+    font-size: 5rem;
+}
+.img{
+    width: 800px;
+}
+.free-trial{
+    padding: 40px;
 }
 
 /* footer */
