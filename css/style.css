@@ -16,5 +16,35 @@
 --bc-cherry: #D5001F;
 --bc-blue: #0D2481;
 --bc-yellow: #FFD830;
-
+}
+body{
+    background-color: var(--background-main);
+    font-family: 'Fredoka', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+}
+.container-small{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 10px;
+}
+.debug{
+    border: 1px solid #000000;
+}
+header{
+    position: fixed;
+    top: 0;
+    height: 80px;
+    background-color: var(--background-main);
+    width: 100%;
+    z-index: 1000;
+}
+/* main */
+#hero{
+    background-color: var(--backgroun-hero);
+    width: 100%;
 }
