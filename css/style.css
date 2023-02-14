@@ -35,7 +35,7 @@ body{
     padding: 10px;
 }
 .container-small{
-    max-width: 1000px;
+    max-width: 1100px;
     margin: 0 auto;
     padding: 10px;
 }
@@ -117,10 +117,27 @@ input[type='radio']:checked:before {
     margin-top: 120px;
 }
 .icon{
-    padding: 20px;
+    padding: 10px;
+}
+.share:before, .users:before, .storage:before{
+    font-family: "Font Awesome 5 free"; 
+    font-weight: 600;
+    display: inline-block;
+    margin-right: 20px;
+}
+.storage:before{
+    content: "\f07b";
+}
+.users:before{
+    content: "\f007";
+}
+.share:before{
+    content: "\f1e0";
 }
 .check-blue{
     color: #0061FF;
+    margin-left: 10px;
+    padding: 10px;
 }
 /* header */
 header{
@@ -172,7 +189,7 @@ h1{
 .single{
     margin: 20px;
     border: 0.5px solid #bdbbbb;
-    height: 130vh;
+    height: 1000px;
 }
 .plan-title{
     padding-top: 5px;
@@ -183,8 +200,16 @@ h1{
     margin: 20px;
 }
 .enterpise{
-    height: 20vw;
     width: 100%;
+    border: 1px solid #bdbbbb;
+}
+.office-sell{
+    background-color: var(--blue-button);
+    width: 220px;
+    height: 30px;
+    border: 0;
+    color: var(--background-main);
+    margin-top: 20px;
 }
 /* partner */
 .box-img{
