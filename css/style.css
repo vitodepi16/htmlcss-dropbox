@@ -156,6 +156,8 @@ header{
 }
 .logo{
     margin-left: 5px;
+    display: flex;
+    justify-content: center;
 }
 .accedi{
     margin: 15px;
@@ -246,6 +248,30 @@ h1{
     flex-wrap: wrap;
     gap: 20px;
     margin: 20px;
+}
+.big-con{
+    width: calc(100% / 3 );
+    height: calc(100vw / 3);
+    display: flex;
+    flex-direction: row;
+}
+.part-img{
+    width: 100%;
+}
+.left-logo{
+    width: 50%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+/* LOGO */
+.logo-bus{
+    display: flex;
+    justify-content: center;
+}
+.logo-title{
+    font-size: medium;
 }
 /* footer */
 footer{
