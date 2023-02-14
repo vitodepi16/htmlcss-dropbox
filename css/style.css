@@ -20,7 +20,6 @@
 }
 body{
     background-color: var(--background-main);
-    font-family: 'Fredoka', sans-serif;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -222,8 +221,18 @@ h1{
 .box-img{
     width: 60%;
 }
-.title{
+.title-partner{
     width: 40%;
+    margin: 50px;
+    
+}
+.find-partner{
+    border: 1px solid #bdbbbb;
+    width: 180px;
+    height: 30px;
+    text-align: center;
+    margin-left: 0;
+    color: #bdbbbb;
 }
 /* footer */
 footer{
