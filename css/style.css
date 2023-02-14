@@ -359,14 +359,22 @@ h1{
 h4{
     font-weight: 400;
     font-size: 1rem;
+    cursor: pointer;
 }
 .faq p {
     display: none;
 }
-
-.faq h4:hover ~ p {
+.faq-flex{
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+}
+.faq .faq-flex:hover ~ p {
     display: block;
     animation-delay: 2s;
+}
+.m-left{
+    margin-left: 0;
 }
 /* footer */
 footer{
