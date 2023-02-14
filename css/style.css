@@ -186,7 +186,12 @@ h1{
     height: 20vw;
     width: 100%;
 }
+/* partner */
+.box-img{
+    width: 120px;
+    height: 10vh;
 
+}
 /* footer */
 footer{
     background-color: var(--bc-footer);
