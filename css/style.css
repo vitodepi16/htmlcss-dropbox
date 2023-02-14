@@ -339,9 +339,8 @@ h1{
     background-color: var(--backgroun-hero);
 }
 .text-trial{
-    font-size: 2rem;
     color: var(--bc-brown);
-    font-weight: bold;
+    font-weight: 500;
 }
 .free-button{
     border: 3px solid white;
@@ -351,7 +350,23 @@ h1{
     height: 30px;
     text-align: center;
     font-size: 1em;
+}
+/* FAQ */
+.title-faq{
+    font-size: 2rem;
+    font-weight: 500;
+}
+h4{
+    font-weight: 400;
+    font-size: 1rem;
+}
+.faq p {
+    display: none;
+}
 
+.faq h4:hover ~ p {
+    display: block;
+    animation-delay: 2s;
 }
 /* footer */
 footer{
