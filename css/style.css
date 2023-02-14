@@ -260,20 +260,42 @@ h1{
      width: 50%;
     height: 50%;
 }
+
+/* LOGO */
 .left-logo .text-logo .right-logo{
     width: calc(100% / 3 );
+    
+}
+.left-logo{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 }
-
-/* LOGO */
+.text-logo{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.right-logo{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.partner{
+    width: 50%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+}
 .logo-bus{
     display: flex;
     justify-content: center;
 }
 .logo-title{
     font-size: medium;
+}
+.designt{
+    background-color: var(--bg-green);
 }
 /* footer */
 footer{
