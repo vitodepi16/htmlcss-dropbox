@@ -119,25 +119,29 @@ input[type='radio']:checked:before {
 .icon{
     padding: 10px;
 }
+.plan ul li{
+    text-indent: -1.5rem;
+    padding-left: 1.2rem;
+}
 .share:before, .users:before, .storage:before{
     font-family: "Font Awesome 5 free"; 
     font-weight: 600;
-    display: inline-block;
-    margin-right: 20px;
-}
-.storage:before{
+    margin-right: 10px;
+
+}  
+.storage:before{ 
     content: "\f07b";
-}
+} 
+
 .users:before{
     content: "\f007";
 }
 .share:before{
     content: "\f1e0";
 }
-.check-blue{
+.check-blue::before{
     color: #0061FF;
-    margin-left: 10px;
-    padding: 10px;
+    padding-left: 2rem;
 }
 /* header */
 header{
@@ -170,7 +174,7 @@ h1{
 
 }
 .img{
-    width: 800px;
+    width: 100%;
 }
 .free-trial{
     padding: 40px;
@@ -182,6 +186,9 @@ h1{
 .plan{
     width: 100%;
     padding: 10px;
+}
+.inline-block{
+    display: inline-block;
 }
 .border{
     border: 1px solid #bdbbbb;
@@ -213,9 +220,10 @@ h1{
 }
 /* partner */
 .box-img{
-    width: 120px;
-    height: 10vh;
-
+    width: 60%;
+}
+.title{
+    width: 40%;
 }
 /* footer */
 footer{
