@@ -1,5 +1,4 @@
-*
-{
+*{
     margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
@@ -64,25 +63,28 @@ nav{
 .align-center{
     align-items: center;
 }
-a:link {
+/* LINK */
+nav a{
+    color: #565656;
+    padding: 20px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+nav a:link {
     text-decoration: none;
 }
   
-a:visited {
+nav a:visited {
     text-decoration: none;
 }
   
-a:active {
-    text-decoration: underline;
-}
-  a:hover {
-    text-decoration: underline;
-}
-a{
-    padding-left: 20px;
-    padding-right: 20px;
-    color: #010101;
-}
+nav a:hover, a:active {
+    background-color: var(--background-main);
+    border-bottom: solid 3px #565656;
+  }
+
+/* RADIOBOX / BUTTON */
 
 input[type='radio'] {
     -webkit-appearance:none;
@@ -110,22 +112,34 @@ input[type='radio']:checked:before {
 .p-top{
     padding-top: 70px;
 }
+/* BUTTON */
 .blue-button{
     background-color: var(--blue-button);
     color: var(--background-main);
     border: var(--blue-button);
     text-align: center;
-    font-size: larger;
-    padding: 10px;
+    font-size: 14px;
+    padding: 12px 28px;
     border: 3px solid var(--blue-button);
-
+    cursor: pointer;
+    opacity: 0.9;
 }
-.button:hover {
-    background-color: var(--blue-button)
+.blue-button:hover {
+    background-color: var(--blue-button);
+    opacity: 1;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
+.button{
+    font-size: 16px;
+}
+.blue-button:active{
+    transform: translateY(4px);
+}
+/* ICONE */
 .link-arrow{
     font-size: 3rem;
     margin-top: 120px;
+    color: #000000;
 }
 .icon{
     margin-right: 5px;
