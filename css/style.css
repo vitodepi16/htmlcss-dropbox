@@ -202,7 +202,7 @@ h1{
 .single{
     margin: 20px;
     border: 0.5px solid #bdbbbb;
-    height: 1000px;
+
 }
 .plan-title{
     padding-top: 5px;
@@ -394,8 +394,9 @@ ul li{
 }
 
 .sign{
-    width: 150px;
-    margin-left: 180px;
+    width: 70%;
+    margin-left: 0;
+    color: lightgray;
 }
 select{
     border:none;
