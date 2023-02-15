@@ -376,10 +376,12 @@ h1{
 .free-trial{
     width: 100%;
     background-color: var(--backgroun-hero);
+     padding: 150px;
 }
 .text-trial{
     color: var(--bc-brown);
     font-weight: 500;
+   
 }
 .free-button{
     border: 3px solid white;
