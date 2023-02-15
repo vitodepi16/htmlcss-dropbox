@@ -381,6 +381,30 @@ footer{
     background-color: var(--bc-footer);
     color:var(--background-main)
 }
-ul{
+ul li{
     list-style: none;
+    margin: 20px;
+    font-weight: 200;
+    font-size: 1em;
 }
+.title-foot{
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-left: 20px;
+}
+
+.sign{
+    width: 150px;
+    margin-left: 180px;
+}
+select{
+    border:none;
+    padding: 10px 20px;
+    border-radius:5px;
+    background-color: #000000;
+    color: lightgray;
+  }
+  
+  select:focus{
+    outline:none;
+  }
